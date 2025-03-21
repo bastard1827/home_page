@@ -1,0 +1,62 @@
+body{
+    border: 0px;
+    height: 100%;
+    width: 100%;
+    background: url(images/backgroundHomePage.png ) no-repeat center center fixed;
+}
+
+.blok {
+    margin-left: 9.44vw;
+    margin-top: 15.89vh;
+    width: 47.74vw;
+    height: 45.18vh;
+}
+
+.button {
+    background: #5D6AFB;
+    width: 22.47vw;
+    height: 8.85vh;
+    border-radius: 4.56vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonT {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500; 
+    font-size: 3.65vh;
+}
+
+.homeText1 {
+    font-family: Montserrat;
+    font-style: SemiBold;
+    color: white;
+    line-height: 130%;
+    font-size: 11.84vh; 
+    width: 47.74vw;
+    height: 30.73vh;
+}
+@media (max-width: 768px) {
+    .button {
+        width: 50vw;
+        height: 10vh;
+    }
+
+    .buttonT {
+        font-size: 5vh;
+    }
+
+    .homeText1 {
+        font-size: 8vh;
+        width: 80vw;
+        height: auto;
+    }
+}
+.button:hover {
+    background: #06139e;
+
+}
